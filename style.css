@@ -16,6 +16,24 @@ body {
   margin: 30px auto 0;
 }
 
+.primary-button {
+  outline: none;
+  line-height: 1;
+  cursor: pointer;
+  text-align: left;
+  position: relative;
+  border: 2px solid #199CDB;
+  border-radius: 999px;
+  display: inline-block;
+  padding: 13px 30px 15px 30px;
+  background-color: transparent;
+}
+.primary-button a {
+  text-decoration: none;
+  font-size: 14px;
+  color: #1185D7;
+}
+
 .headline-section {
   display: flex;
   align-items: center;
@@ -223,20 +241,50 @@ main {
   margin: 0px;
   padding: 0px;
 }
-.vehicle-plans .vehicle-plan .plan-button {
-  outline: none;
-  line-height: 1;
-  cursor: pointer;
-  text-align: left;
-  position: relative;
-  border: 2px solid #199CDB;
-  border-radius: 999px;
-  display: inline-block;
-  padding: 13px 30px 15px 30px;
-  background-color: transparent;
+
+.service-list-container {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 40px 0px 20px 0px;
+  padding: 0px 30px 20px;
 }
-.vehicle-plans .vehicle-plan .plan-button a {
-  text-decoration: none;
-  font-size: 14px;
+.service-list-container .service-list-item {
+  width: 100%;
+  display: table;
+  margin-top: -1px;
+  border: 1px solid #E2E6E7;
+  box-sizing: border-box;
+  padding: 12px 20px 12px 20px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.service-list-container .service-list-item div {
+  text-align: left;
+  display: table-cell;
+  vertical-align: middle;
+}
+.service-list-container .service-list-item .service-name {
+  width: 55%;
+}
+.service-list-container .service-list-item .service-name span {
+  outline: none;
   color: #1185D7;
+  font-size: 14px;
+}
+.service-list-container .service-list-item .service-duration {
+  width: 15%;
+}
+.service-list-container .service-list-item .service-price {
+  width: 15%;
+}
+.service-list-container .service-list-item .primary-button {
+  width: 10%;
+  text-align: center;
+}
+.service-list-container + .service-more-button .primary-button {
+  display: block;
+  width: 5%;
+  text-align: center;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

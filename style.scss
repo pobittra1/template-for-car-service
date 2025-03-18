@@ -21,6 +21,28 @@ body {
 
 
 
+// primary button design
+.primary-button {
+    outline: none;
+    line-height: 1;
+    cursor: pointer;
+    text-align: left;
+    position: relative;
+    border: 2px solid #199CDB;
+    border-radius: 999px;
+    display: inline-block;
+    padding: 13px 30px 15px 30px;
+    background-color: transparent;
+
+    a {
+        text-decoration: none;
+        font-size: 14px;
+        color: #1185D7;
+    }
+}
+
+// primary button design
+
 // headline part design
 .headline-section {
     display: flex;
@@ -269,41 +291,70 @@ main {
                 padding: 0px;
             }
         }
-
-        .plan-button {
-            outline: none;
-            line-height: 1;
-            cursor: pointer;
-            text-align: left;
-            position: relative;
-            border: 2px solid #199CDB;
-            border-radius: 999px;
-            display: inline-block;
-            padding: 13px 30px 15px 30px;
-            background-color: transparent;
-
-            a {
-                text-decoration: none;
-                font-size: 14px;
-                color: #1185D7;
-            }
-        }
     }
 }
 
 // plan section end here
 
-// main part style end here
 
+// service section start here
+.service-list-container {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 40px 0px 20px 0px;
+    padding: 0px 30px 20px;
 
-.section-header {
-    .header-numbers {
-        span {}
+    .service-list-item {
+        width: 100%;
+        display: table;
+        margin-top: -1px;
+        border: 1px solid #E2E6E7;
+        box-sizing: border-box;
+        padding: 12px 20px 12px 20px;
+        margin-left: 0;
+        margin-right: 0;
+
+        div {
+            text-align: left;
+            display: table-cell;
+            vertical-align: middle;
+        }
+
+        .service-name {
+            width: 55%;
+
+            span {
+                outline: none;
+                color: #1185D7;
+                font-size: 14px;
+            }
+        }
+
+        .service-duration {
+            width: 15%;
+        }
+
+        .service-price {
+            width: 15%;
+        }
+
+        .primary-button {
+            width: 10%;
+            text-align: center;
+        }
     }
 
-    .header-text {
-        h4 {}
-
-        p {}
+    &+.service-more-button {
+        .primary-button {
+            display: block;
+            width: 5%;
+            text-align: center;
+            margin: 0 auto;
+        }
     }
 }
+
+// service section end here
+
+// main part style end here

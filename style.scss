@@ -19,6 +19,54 @@ body {
     margin: 30px auto 0;
 }
 
+
+
+// headline part design
+.headline-section {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px 20px;
+    column-gap: 20px;
+    margin: 40px 0px 20px 0px;
+
+
+    .headline-numbers {
+        width: 80px;
+        height: 80px;
+        padding: 3px;
+        line-height: 80px;
+        text-align: center;
+        border-radius: 100%;
+        background-color: #199CDB;
+        color: #FFFFFF;
+
+        span {
+            font-size: 28px;
+        }
+
+        span+span {
+            font-size: 16px;
+        }
+    }
+
+    .headline-info h4 {
+        color: #222222;
+        font-size: 26px;
+        font-weight: 400;
+        margin: 0px;
+        margin-bottom: 8px;
+    }
+
+    .headline-info h5 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #4A5F73;
+        margin: 0;
+    }
+}
+
+// headline part design
+
 // header part style start here
 header {
     padding: 40px 30px 40px;
@@ -119,49 +167,7 @@ main {
 
 
 
-// vehicle list style start here
-.vehicle-list-header {
-    display: flex;
-    align-items: center;
-    padding: 0px 30px 20px;
-    column-gap: 20px;
-
-
-    .header-numbers {
-        width: 80px;
-        height: 80px;
-        padding: 3px;
-        line-height: 80px;
-        text-align: center;
-        border-radius: 100%;
-        background-color: #199CDB;
-        color: #FFFFFF;
-
-        span {
-            font-size: 28px;
-        }
-
-        span+span {
-            font-size: 16px;
-        }
-    }
-
-    .header-info h4 {
-        color: #222222;
-        font-size: 26px;
-        font-weight: 400;
-        margin: 0px;
-        margin-bottom: 8px;
-    }
-
-    .header-info h5 {
-        font-size: 20px;
-        font-weight: 300;
-        color: #4A5F73;
-        margin: 0;
-    }
-}
-
+// verhicle list style start here
 .vehicle-list-type {
     display: flex;
     flex-wrap: wrap;
@@ -194,53 +200,6 @@ main {
 // vehicle list style end here
 
 // plan section start here
-.plan-section {
-    padding: 10px 20px;
-}
-
-.plan-list-header {
-    display: flex;
-    align-items: center;
-    padding: 0px 30px 20px;
-    column-gap: 20px;
-
-
-    .header-numbers {
-        width: 80px;
-        height: 80px;
-        padding: 3px;
-        line-height: 80px;
-        text-align: center;
-        border-radius: 100%;
-        background-color: #199CDB;
-        color: #FFFFFF;
-
-        span {
-            font-size: 28px;
-        }
-
-        span+span {
-            font-size: 16px;
-        }
-    }
-
-    .header-info h4 {
-        color: #222222;
-        font-size: 26px;
-        font-weight: 400;
-        margin: 0px;
-        margin-bottom: 8px;
-    }
-
-    .header-info h5 {
-        font-size: 20px;
-        font-weight: 300;
-        color: #4A5F73;
-        margin: 0;
-    }
-}
-
-
 .vehicle-plans {
     display: flex;
     flex-direction: row;

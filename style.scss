@@ -357,4 +357,70 @@ main {
 
 // service section end here
 
+
+// date and time section start here
+.calendar-container {
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    margin: 40px auto 20px;
+    padding: 0px 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    border: 1px solid #E2E6E7;
+}
+
+// date and time section end here
+
+
+// booking summary section start here
+.booking-summary {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 40px auto 20px;
+    padding: 0px 30px 20px;
+
+    .booking-item {
+        width: 45%;
+        border: 1px solid #E2E6E7;
+        padding: 30px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .booking-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            .content-icon {
+                color: #1185D7;
+            }
+
+            .booking-text {
+                font-size: 15px;
+                color: #4A5F73;
+            }
+        }
+
+    }
+}
+
+
+
+// booking summary section end here
+
 // main part style end here
+
+
+
+
+.space-section {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}

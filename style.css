@@ -287,4 +287,52 @@ main {
   width: 5%;
   text-align: center;
   margin: 0 auto;
+}
+
+.calendar-container {
+  width: 90%;
+  height: 300px;
+  text-align: center;
+  margin: 40px auto 20px;
+  padding: 0px 30px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border: 1px solid #E2E6E7;
+}
+
+.booking-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 40px auto 20px;
+  padding: 0px 30px 20px;
+}
+.booking-summary .booking-item {
+  width: 45%;
+  border: 1px solid #E2E6E7;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.booking-summary .booking-item .booking-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.booking-summary .booking-item .booking-content .content-icon {
+  color: #1185D7;
+}
+.booking-summary .booking-item .booking-content .booking-text {
+  font-size: 15px;
+  color: #4A5F73;
+}
+
+.space-section {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
 }/*# sourceMappingURL=style.css.map */
